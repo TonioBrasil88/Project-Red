@@ -1,0 +1,217 @@
+/*GENERAL SETTINGS */
+
+* {
+    font-family: 'Rajdhani', sans-serif;
+}
+
+body {
+    background-color: var(#ececec);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.h2 {
+
+    color: darkred;
+    font-family: 'Nova Square', cursive;
+
+}
+
+
+figcaption {
+    font-size: small;
+    font-style: italic;
+    font-weight: 500;
+}
+
+
+h2 {
+    line-height: 5;
+}
+
+/* darkred, #C67F7F, #ececec */
+
+
+/* NAVBAR */
+
+.logo {
+
+    height: 10vh;
+
+}
+
+
+
+
+/* background color */
+
+.background1 {
+    background: linear-gradient(0, transparent 0%, white 100%), url(./media/mountains2.png),
+        url(media/switzerland-862870_1920.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: cover;
+    align-items: center;
+
+
+}
+
+.p-cust { 
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-style: italic;
+    font-size: 20px;
+}
+
+
+/* parte1 */
+
+
+.p-timeline { 
+    color:black;
+    font-weight: 600;
+}
+
+.p-column {
+    color: rgba(0, 0, 0, 0.5);
+    font-weight: 600;
+    font-size: 20px;
+
+
+}
+
+.title {
+    font-weight: 500;
+    letter-spacing: 80px;
+    font-size: 100px;
+
+}
+
+.firstparagraph {
+    margin-left: 25%;
+
+}
+
+.color-red {
+
+    color: darkred;
+
+}
+
+.btn {
+    background-color: darkred;
+    color: #ececec;
+}
+
+.bg-button {
+    background-image: url(./media/trees2.png);
+    background-color: var(#ececec);
+
+}
+
+
+.part1 {
+    background: url(./media/trees2.png), #ececec;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    align-items: center;
+
+}
+
+.border-bottom {
+    border-bottom: 3px solid darkred !important;
+
+}
+
+.border-bottom::after {
+    content: '';
+    margin-bottom: -10px;
+    height: 18px;
+    width: 18px;
+    border-width: 2px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid darkred;
+    position: relative;
+
+}
+
+.timeline {
+    border-left: 4px solid darkred;
+}
+
+.timeline h4::before {
+
+    content: '';
+    position: absolute;
+    left: calc(3rem - 8px);
+    height: 18px;
+    width: 18px;
+    border-width: 2px;
+    border-radius: 50%;
+    background-color: white;
+    border: 2px solid darkred;
+
+}
+
+.part2 {
+    background: url(./media/single.png), white;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: auto;
+    align-items: center;
+    margin-right: 3rem;
+
+
+}
+
+.timeline p {
+
+    margin: 0px;
+    padding-bottom: 2rem;
+
+}
+
+.timeline h3 {
+
+    margin: -5px;
+}
+
+/* Parte 3 */
+
+.part3 {
+    background: #ececec;
+}
+
+.image-border {
+    border: 3px solid darkred;
+    padding: 7px;
+    align-self: center;
+    min-width: 150px;
+}
+
+/* Immagine foresta */
+
+.background-image{
+    background-color: #ececec;
+}
+
+/* footer */
+
+footer{
+    background-color: darkred;
+}
+
+footer :is(h2 , p, a, li, h5) {
+    color: #ececec;
+    text-decoration: none;
+}
+
+ul{
+    list-style-position: inside;
+}
